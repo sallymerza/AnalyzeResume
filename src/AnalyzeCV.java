@@ -34,7 +34,7 @@ public class AnalyzeCV {
     private void readFile () {
         try {
             File file =
-                    new File("C:/Duke Baby!/Semester05/308/GitHub/Questions/src/questions/resume");
+                    new File("resume.txt");
             FileReader fileReader = new FileReader(file);
             BufferedReader br = new BufferedReader(fileReader);
             String line;
